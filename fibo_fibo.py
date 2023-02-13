@@ -10,7 +10,7 @@ def fibonacci_1(n):
 
 # A code that has O(n) time complexity...
 # Fibonacci 2:
-res = [-1]* 1000 
+res = [-1]* 10001 
 def fibonacci_2(n):
 
     if n==2 or n==1:
@@ -23,6 +23,9 @@ def fibonacci_2(n):
 # A python implementation of fibonacci number generator using Golden Ratio.
 # This is only efficient for smaller value of 'n'.
 # Time Complexity O(1)
+
+# In my calculation, the golden ratio approach gives the correct value till 71.
+# Then you might have to use the method 1 or 2 for higher values of 'n'.
 
 from math import sqrt, floor
 
