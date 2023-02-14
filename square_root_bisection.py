@@ -16,3 +16,8 @@ def squareroot(x):
 
 n = int(input()) # taking input
 print(round(squareroot(n), 3)) # rounding to nearest 3 decimal points
+
+# You can now have the intuition that this bisection method can be used to implement to find the nth root of
+# an integer. For the cubic root, you just need to check,
+# if mid*mid*mid > x
+# I hope this would be helpful to understand the power of such method.
